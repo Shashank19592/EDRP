@@ -47,7 +47,7 @@ public class Accounts_main extends Activity {
 		
 		if(pref.contains("uid"))
 		{
-			sid = pref.getString("uid",null);
+			sid = pref.getString("uid",null);  //comments
 		}
 		else{
 			
